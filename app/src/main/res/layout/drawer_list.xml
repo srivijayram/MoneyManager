@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/chart"
+        android:icon="@drawable/ic_outline_pie_chart_24"
+        android:title="Chart"
+        />
+    <item
+        android:id="@+id/categories"
+        android:icon="@drawable/ic_outline_category_24"
+        android:title="Categories" />
+    <item
+        android:id="@+id/export"
+        android:icon="@drawable/ic_outline_import_export_24"
+        android:title="Export" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_outline_settings_24"
+        android:title="Settings" />
+    <item
+        android:id="@+id/rateus"
+        android:icon="@drawable/ic_outline_star_rate_24"
+        android:title="Rate Us" />
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_outline_info_24"
+        android:title="About" />
+</menu>

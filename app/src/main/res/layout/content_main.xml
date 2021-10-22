@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/app_bar_main">
+
+    <fragment
+            android:id="@+id/nav_host_fragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/mobile_navigation"
+    />
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:srcCompat="@tools:sample/avatars" android:id="@+id/imageView3"
+            tools:layout_editor_absoluteY="81dp" tools:layout_editor_absoluteX="132dp"/>
+    <ImageView
+            android:layout_width="51dp"
+            android:layout_height="49dp" android:background="@android:drawable/ic_dialog_info"
+            android:backgroundTint="#FB9704"
+            android:id="@+id/AboutImage" tools:layout_editor_absoluteY="593dp" tools:layout_editor_absoluteX="16dp"/>
+    <TextView
+            android:text="CHARTS"
+            android:layout_width="146dp"
+            android:layout_height="34dp" android:id="@+id/charts" tools:layout_editor_absoluteY="275dp"
+            tools:layout_editor_absoluteX="102dp"/>
+    <ImageView
+            android:layout_width="49dp"
+            android:layout_height="37dp" android:background="@drawable/categories"
+            android:id="@+id/CategoriesImage" tools:layout_editor_absoluteY="343dp" tools:layout_editor_absoluteX="16dp"
+            android:backgroundTint="@color/purple_500"/>
+    <TextView
+            android:text="Categories"
+            android:layout_width="143dp"
+            android:layout_height="23dp" android:id="@+id/Categories" tools:layout_editor_absoluteY="354dp"
+            tools:layout_editor_absoluteX="102dp"/>
+    <ImageView
+            android:layout_width="56dp"
+            android:layout_height="48dp" android:background="@android:drawable/stat_sys_download_done"
+            android:id="@+id/export" tools:layout_editor_absoluteY="425dp" tools:layout_editor_absoluteX="16dp"
+            android:backgroundTint="@color/purple_500"
+    />
+    <TextView
+            android:text="Export"
+            android:layout_width="140dp"
+            android:layout_height="23dp" android:id="@+id/Exports" tools:layout_editor_absoluteY="432dp"
+            tools:layout_editor_absoluteX="100dp"/>
+    <TextView
+            android:text="Settings"
+            android:layout_width="139dp"
+            android:layout_height="26dp" android:id="@+id/Settings" tools:layout_editor_absoluteY="515dp"
+            tools:layout_editor_absoluteX="103dp"/>
+    <TextView
+            android:text="About"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/About" tools:layout_editor_absoluteY="601dp"
+            tools:layout_editor_absoluteX="103dp"/>
+    <ImageView
+            android:layout_width="52dp"
+            android:layout_height="48dp" app:srcCompat="@drawable/setting" android:id="@+id/SettingsImage"
+            tools:layout_editor_absoluteY="507dp" tools:layout_editor_absoluteX="19dp"/>
+    <ImageView
+            android:layout_width="45dp"
+            android:layout_height="37dp" app:srcCompat="@drawable/charts" android:id="@+id/imageView8"
+            tools:layout_editor_absoluteY="272dp" tools:layout_editor_absoluteX="19dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
