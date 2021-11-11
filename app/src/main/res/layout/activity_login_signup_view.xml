@@ -28,7 +28,7 @@
         android:onClick="sendMessage1"
         android:text="login"
         android:textColor="@color/white"
-        app:backgroundTint="#fab833"
+        app:backgroundTint="@color/buttoncolor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
@@ -42,7 +42,7 @@
         android:onClick="sendMessage"
         android:text="signup"
         android:textColor="@color/white"
-        app:backgroundTint="#fab833"
+        app:backgroundTint="@color/buttoncolor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login" />
 </androidx.constraintlayout.widget.ConstraintLayout>
